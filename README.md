@@ -17,4 +17,8 @@ It requires a text document containing text encoded in UTF-8. Change filename be
 
 `text = open(u"./source-gaunt-unprepared.txt", encoding="utf8", errors='ignore').read()[start_index:end_index]`
 
+Open a terminal and run:
+
+`python text-prep.py`
+
 Processed text will output to a new file called processed.txt. Upload file to be trained in a network such as https://github.com/minimaxir/textgenrnn @minimaxir
