@@ -15,7 +15,9 @@ This module requires the spaCy library. @explosion/spaCy
 
 It requires a text document containing text encoded in UTF-8. Change filename below to match your text document filename:
 
-`text = open(u"./source-gaunt-unprepared.txt", encoding="utf8", errors='ignore').read()[start_index:end_index]`
+```python
+text = open(u"./source-gaunt-unprepared.txt", encoding="utf8", errors='ignore').read()[start_index:end_index]
+```
 
 Open a terminal and run:
 
